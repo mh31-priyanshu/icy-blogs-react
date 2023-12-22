@@ -12,7 +12,7 @@ const Create = () => {
         e.preventDefault();
         const blog = {title, data:body, author, description:"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."};
 
-        fetch('http://192.168.1.5:8000/blogs',{
+        fetch('http://localhost:8000/blogs',{
             method:'POST',
             headers: {"Content-Type":"application/json"},
             body: JSON.stringify(blog)
