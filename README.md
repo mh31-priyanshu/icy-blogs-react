@@ -1,3 +1,10 @@
+# To Run this Project
+run this command in your terminal
+### `npm install`
+### `npx run start`
+open second terminal and run this
+### `npm json-server --watch data/data.js --host 8000`
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
