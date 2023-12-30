@@ -54,6 +54,7 @@ const Create = () => {
                         <option value="Priyanshu">Priyanshu</option>
                         <option value="Manthan">Manthan</option>
                         <option value="Pratyay">Pratyay</option>
+                        <option value="Minakshi">Minakshi</option>
                     </select>
                     {!isPending && <button className="mr-4 mt-3 bg-pink-500 text-lg text-white px-6 py-1 rounded-md">Post</button>}
                     {isPending && <button disabled className="mr-4 mt-3 bg-pink-500 text-lg text-white px-6 py-1 rounded-md">Posting</button>}
@@ -65,7 +66,6 @@ const Create = () => {
                     <div className="text-2xl font-bold text-pink-500">{title}</div>
                     <div className="text-slate-400 text-sm">Written by {author}</div>
                     <div className="text-justify mt-5">{body}</div>
-
                 </div>
             </div>
         </div>

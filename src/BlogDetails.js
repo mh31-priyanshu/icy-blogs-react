@@ -21,7 +21,7 @@ const BlogDetails = () => {
             {error && <div className="ml-8 text-lg text-slate-600"> {error} </div>}
             {blog && (
                 <div className="mt-10 ml-5">
-                    <div className="text-2xl font-bold text-pink-500">{blog.title}</div>
+                    <div className="text-pink-500 text-2xl font-bold">{blog.title}</div>
                     <div className="text-slate-400 text-sm">Written by {blog.author}</div>
                     <div className="text-justify mt-5">{blog.data}</div>
                     <button onClick={handleDelete} className="mr-4 bg-pink-500 text-lg my-5 text-white px-4 py-1 rounded-md">Delete</button>

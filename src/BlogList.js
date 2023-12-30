@@ -5,7 +5,7 @@ const BlogList = ({blogs, title, handleDelete}) => {
         <div>
             <div className="ml-8 text-2xl font-extrabold text-slate-500">{title}</div>
             {blogs.map((blog) => (
-            <div className="m-5 p-5 hover:shadow-md hover:cursor-pointer border-l-8 rounded-md" key={blog.id}>
+            <div className="m-5 p-5 hover:shadow-md hover:cursor-pointer hover:scale-105 transform border-l-8 rounded-md" key={blog.id}>
                 <div className="flex items-end justify-between mb-2">
                     <Link to={`/blog/${blog.id}`}>
                         <div className="flex items-end">
