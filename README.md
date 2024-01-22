@@ -3,7 +3,7 @@ run this command in your terminal
 ### `npm install`
 ### `npm run start`
 open second terminal and run this
-### `npx json-server --watch data/data.js --host 8000`
+### `npm run start-server`
 
 # Getting Started with Create React App
 
